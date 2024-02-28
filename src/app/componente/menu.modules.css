@@ -1,3 +1,13 @@
 .cabecalho{
     font-size: 100%;
+    background-color: rgb(13, 4, 5);
+}
+
+.navbar{
+    background-color: aqua;
+ grid-row: auto;
+}
+
+li{
+    list-style-type: none;
 }
