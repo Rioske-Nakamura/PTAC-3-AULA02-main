@@ -1,13 +1,46 @@
 .cabecalho{
-    font-size: 100%;
-    background-color: rgb(13, 4, 5);
+    display: grid;
+    height: 100px;
+    background-color: black;
+}
+
+
+.cabecalho h1{
+    margin-top: 0px;
 }
 
 .navbar{
-    background-color: aqua;
- grid-row: auto;
+    margin: 0px;
+    display: grid;
+    height: auto;
+    background-color: rgb(0, 215, 14);
 }
 
-li{
-    list-style-type: none;
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap; 
+    list-style-type: none; 
+    padding: 0;
+}
+
+.navbar ul li{
+    width: 25%; 
+
+    padding: 10px; 
+    color: aliceblue;
+    font-size: 200%;
+    justify-content: center;
+}
+
+.rodape{
+    margin-bottom: 0px;
+    columns: row;
+}
+
+footer{
+    background-color: chocolate;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 100%;
+    bottom: 0;
 }
