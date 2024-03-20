@@ -1,4 +1,4 @@
-const url = "http://back-end-ifms.vercel.app.campi";
+const url = "https://github.com/Rioske-Nakamura/BackEnd-ifms";
 
 export default async function Home() {
 
@@ -10,7 +10,8 @@ export default async function Home() {
       revalidate:1
     }
   });
-  const campi = await resposta.json();
+
+  const campi= await resposta.json();
  
   return (
     <main>
